@@ -8,19 +8,19 @@ class NestedIf
 {
 	static void takeAdmission()
 	{
-		float totalMarks= 78.9f;
-		float pcmMarks=88.9f;
+		float totalMarks=75.1f;
+		float pcmMarks=78.2f;
 		if(totalMarks>75)
 		{
 			if(pcmMarks>85)
 				System.out.println("----You are eligible for our college(b.tech)---");
 			else 
-				System.out.ptintln("-----You are eligible for our college(bca)--");
+				System.out.println("-----You are eligible for our college(bca)--");
 			
 		}
         else 
-         System.out.ptintln("-----You are not eligible for our college--");
-	 System.out.ptintln("---Thank you!----");
+         System.out.println("-----You are not eligible for our college--");
+	 System.out.println("---Thank you!----");
 	}
 	
 	public static void main(String args[])
